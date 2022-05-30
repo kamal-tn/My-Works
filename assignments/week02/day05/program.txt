@@ -1,0 +1,23 @@
+//To check the number is even or odd,
+
+const number = prompt("Enter a number: ");
+if(number % 2 == 0) {
+    console.log("The number is even.");
+}
+
+else {
+    console.log("The number is odd.");
+}
+
+
+
+//To check the number is divisible by 4 or not,
+
+const number = prompt("Enter a number: ");
+if(number % 4 == 0) {
+    console.log("yes.");
+}
+
+else {
+    console.log("no.");
+}
