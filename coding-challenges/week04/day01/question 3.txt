@@ -1,0 +1,13 @@
+var a = prompt("enter a number")
+if (a%2==0){
+console.log ("divisible by 2")
+}
+if (a%3==0) {
+console.log ("divisible by 3")
+}
+if (a%5==0){
+console.log ("divisible by 5")
+}
+else{
+console.log("not divisible by any of 2,3,5")
+}

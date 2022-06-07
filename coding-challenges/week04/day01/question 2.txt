@@ -1,0 +1,19 @@
+var operation = prompt("enter operation")
+var a = Number(prompt("enter first number"));
+var b = Number(prompt("enter second number"))
+switch (operation){
+case "+":
+console.log (a+b)
+break;
+case "-":
+console.log (a-b)
+break;
+case "*":
+console.log (a*b)
+break;
+case "/":
+console.log (a/b)
+break;
+default:
+console.log ("value not found")
+}

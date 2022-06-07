@@ -1,0 +1,10 @@
+var age = prompt ("enter your age")
+if (age>=18&&age<=50){
+console.log ("you are eligible")
+}
+else if (age<=0){
+console.log ("enter a valid number")
+}
+else {
+console.log ("you are not eligible")
+}
