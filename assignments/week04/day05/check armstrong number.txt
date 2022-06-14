@@ -1,0 +1,14 @@
+let sum = 0;
+const a = prompt('Enter a three-digit positive integer: ');
+let b = a;
+while (b > 0) {
+       let c = b % 10;
+    sum += c * c * c;
+    b = parseInt(b / 10); 
+}
+if (sum == a) {
+    console.log(`${a} is an Armstrong number`);
+}
+else {
+    console.log(`${a} is not an Armstrong number.`);
+}
