@@ -1,0 +1,9 @@
+var number = 10
+var range = 15
+
+for(let i = 1; i <= range; i++) {
+
+     var result = i * number;
+
+        console.log(`${number} * ${i} = ${result}`);
+}
