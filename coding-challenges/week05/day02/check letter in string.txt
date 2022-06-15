@@ -1,0 +1,8 @@
+let str = "bye"
+for (i=0;i<str.length;i++){
+if (str.charAt(i)=="y" ){
+    console.log ("yes")
+}else {
+    console.log ("no")
+}
+}

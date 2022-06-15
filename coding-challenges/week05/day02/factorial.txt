@@ -1,0 +1,6 @@
+let factorof = 10
+let n=1
+for (i=1;i<=factorof;i++){
+    n*=i
+}
+console.log (n)
