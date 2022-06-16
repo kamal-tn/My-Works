@@ -1,0 +1,15 @@
+let x = 50
+function func(x) {
+console.log('x is', x)             // here the value of x will be 50
+x = 2                                     // now reassigning the value of x with 2
+console.log('Changed local x to', x)   // prints the reassigned value which is 2
+}
+func(x)                    // but here the x value will be 50 only; because we have assigned the new value to x within the function block only
+console.log('x is now', x)
+
+
+OUTPUT:
+
+x is 50
+Changed local x to 2
+x is now 50

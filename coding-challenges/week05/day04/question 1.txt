@@ -1,0 +1,15 @@
+function printMax(a, b) {    
+if (a > b) {                             //if this condition is true, console.log will be printed
+console.log(a, 'is maximum')  // if this condition fails, it moves to else if block
+} else if (a == b)                         //if this condition is true, console.log will be printed
+console.log(a, 'is equal to', b)    //if this condition fails, it moves to else block
+else
+console.log(b, 'is maximum')
+}
+printMax(3, 4) // here 3 is assigned to a; 4 is assigned to b
+
+
+
+OUTPUT:
+
+4 'is maximum'
