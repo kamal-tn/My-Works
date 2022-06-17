@@ -1,0 +1,5 @@
+function average(a,b,c){
+    let result = parseInt((a+b+c)/3)    // parseInt is for to display the result as integer instead of floating number
+    return result;
+}
+console.log (average(1,2,3))
