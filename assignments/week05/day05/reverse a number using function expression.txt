@@ -1,0 +1,13 @@
+var reverse = function (a){
+let b = 0; 
+while(a != 0){ 
+    let lastDigit = a % 10; 
+    b = b * 10 + lastDigit; 
+    a = parseInt(a/10); 
+}
+return b;
+}
+console.log (reverse(123))
+
+OUTPUT:
+321
