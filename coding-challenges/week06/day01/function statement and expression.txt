@@ -1,0 +1,23 @@
+//function decalration by statement
+
+ 
+function add(a,b,c) {      // here we declaring a function by giving a name
+    let result = a+b+c;
+    return result
+}
+console.log (add(1,2,3))
+
+OUTPUT:
+6
+
+//function declaration by expression
+
+var add = function (a,b,c) {   // here we declaring a function by assigning a keyword
+    let result = a+b+c;
+    return result;
+}
+console.log (add(1,2,3))
+
+OUTPUT:
+6
+
