@@ -1,0 +1,5 @@
+var largest = (a,b) => {
+ let result = a>b ? "a is greater":"b is greater"
+ return result;
+}
+console.log(largest(5,3))
