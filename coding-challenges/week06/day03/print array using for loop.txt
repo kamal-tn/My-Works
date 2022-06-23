@@ -1,0 +1,5 @@
+const fruits = [];
+fruits.push("apple","orange","banana","grapes")
+for (let i=0;i<=fruits.length-1;i++) {
+    console.log (fruits[i]);
+}
