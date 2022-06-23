@@ -1,5 +1,8 @@
-const fruits = [];
-fruits.push("apple","orange","banana","grapes")
-for (let i=0;i<=fruits.length-1;i++) {
-    console.log (fruits[i]);
+const numbers = []
+numbers.push(1,2,3,4,5)
+var fn = function (){
+    for (i=0;i<numbers.length;i++){
+        console.log(numbers[i])
+    }
 }
+fn(numbers)
