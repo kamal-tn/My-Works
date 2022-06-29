@@ -1,0 +1,10 @@
+const arr=["1","2","3","4"]
+let numArr = []
+for (i=0;i<arr.length;i++){
+    numArr.push (parseInt (arr[i]))
+}console.log (numArr)
+let number=0;
+for (j=0;j<numArr.length;j++){
+    number=number*10+numArr[j]
+}
+console.log (number*10)
