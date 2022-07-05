@@ -1,0 +1,8 @@
+function createBase(x){
+    return function adder (y){
+        console.log (x+y);
+    }
+}
+var addSix = createBase(6);
+addSix(10);
+addSix(21);
