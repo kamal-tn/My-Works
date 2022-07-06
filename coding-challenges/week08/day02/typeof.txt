@@ -1,0 +1,5 @@
+const array=[1,2,"3",4,true,5,false,"hello"];
+function type(num){
+    console.log (typeof num)
+}
+array.forEach (type);
