@@ -1,0 +1,17 @@
+function printName (city, state){
+    console.log (this.firstName, this.lastName, city, state)
+}
+let person1 = {
+    firstName: "kamal",
+    lastName: "haasan",
+}
+let person2 = {
+    firstName: "ajith",
+    lastName: "kumar",
+}
+
+let Details = printName.bind (person1, "Chennai", "Tamilnadu") 
+Details();
+
+let Details1 = printName.bind (person2, "Chennai", "Tamilnadu") 
+Details1();
