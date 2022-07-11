@@ -1,0 +1,5 @@
+function sum(a,b){
+    return a+b;
+}
+let result = `the sum is ${sum(7,8)}`
+console.log (result)
