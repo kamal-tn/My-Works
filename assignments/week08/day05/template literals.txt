@@ -1,0 +1,11 @@
+let a="attendace";
+let b="homework";
+function career(percent){
+    if(percent<80){
+        console.log (`your ${a} and ${b} must be above 80% for better future`)
+    }
+    else{
+        console.log (`good, keep it up`)
+    }
+}
+career(50)
