@@ -1,0 +1,10 @@
+var person = {
+    firstName : "kamal",
+    lastName : "vijay"
+}
+var p1 = {
+    ...person // to make copy of first object using spread operator
+}
+p1.lastName = "chennai"; // edit in second object can't affect first object 
+console.log (p1);
+console.log (person);

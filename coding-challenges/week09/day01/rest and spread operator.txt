@@ -1,0 +1,7 @@
+function fruits(a,b,...c){
+    console.log (a);
+    console.log (b);
+    console.log (...c);
+}
+const arr = ["apple","orange","banana","grapes","watermelon"];
+fruits (...arr);
