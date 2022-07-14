@@ -1,0 +1,9 @@
+let mixArr = [1,2,"kamal",3,"is",4,5,"playing"];
+let filterArr = mixArr.filter (function (num){
+    return typeof(num) === 'string';
+})
+console.log (filterArr);
+function senTence(a,b,c){
+    console.log (a,b,c);
+}
+senTence (...filterArr);
