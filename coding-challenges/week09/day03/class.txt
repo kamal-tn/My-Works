@@ -1,0 +1,16 @@
+class student {
+    constructor(name,rollno){
+        this.name = name;
+        this.rollno = rollno;
+    }
+    setAge (){
+        console.log (`${this.name} is 15 years old`)
+    }
+    setMarks (b){
+        console.log (`${this.name} has scored 80 marks`)
+    }
+}
+let display = new student ("kamal",6)
+console.log (display);
+display.setAge ();
+display.setMarks ();
