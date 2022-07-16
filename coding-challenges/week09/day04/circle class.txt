@@ -1,0 +1,17 @@
+class circle {
+    constructor (radius){
+        this.radius = radius;
+    }
+    getArea () {
+        let Area = parseInt(Math.PI*this.radius*this.radius);
+        return Area;
+    }
+    getCircumference () {
+        let Circumference = parseInt(2*Math.PI*this.radius);
+        return Circumference;
+    }
+}
+let Maths =new circle (20);
+console.log (Maths);
+console.log(Maths.getArea());
+console.log(Maths.getCircumference());

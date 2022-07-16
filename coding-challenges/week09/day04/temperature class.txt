@@ -1,0 +1,17 @@
+class temperature {
+    constructor (degRee){
+        this.degRee = degRee;
+    }
+    convertFahrenheit () {
+        let F = (this.degRee*(9/5))+32;
+        return F;
+    }
+    convertCelsius () {
+        let C = (this.degRee-32)*(5/9);
+        return C;
+    }
+}
+let temp = new temperature (0);
+console.log (temp);
+console.log(temp.convertFahrenheit());
+console.log(temp.convertCelsius());
