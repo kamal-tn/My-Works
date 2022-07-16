@@ -1,0 +1,12 @@
+class Student {
+    constructor () {
+    for (let i=1;i<=10;i++){
+    		this.name = prompt("Enter a name");
+        this.rollNo = i;
+        console.log ({name:this.name, rollNo:this.rollNo});
+           }
+        }
+    }
+    
+new Student ();
+

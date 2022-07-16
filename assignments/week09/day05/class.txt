@@ -1,0 +1,9 @@
+class Student {
+    constructor (name,rollNo) {
+        this.name = name;
+        this.rollNo = rollNo;
+    }
+}
+let person1 = new Student ("kamal",01);
+console.log (typeof person1);
+console.log (person1);
