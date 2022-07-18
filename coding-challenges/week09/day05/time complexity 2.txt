@@ -1,0 +1,14 @@
+let N= Number(prompt(“Enter the limit”))
+let M= Number(prompt(“Enter the limit”))
+let a = 0;
+let b=0;
+for(let i=0;i<N;i++){
+a = a + 1
+}
+for(let j=0;j<M;j++) {
+b = b + 1
+}
+
+// time complexity for above code is O(N+M)
+//if N>>M, then it will become O(N)
+//if M>>N, then it will become O(M)

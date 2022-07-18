@@ -1,0 +1,10 @@
+let n= Number(prompt(“Enter the limit”))
+let i = 1
+while(i^2<=n)
+{
+console.log(“Time complexity”)
+i += 1
+}
+
+
+// time complexity for above code is O(n)
