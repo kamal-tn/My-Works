@@ -1,0 +1,23 @@
+var mySqrt = function(x) {
+let low= 0;
+let high = x;
+let root = 0;
+while(high >=low){
+const mid = Math.floor((high+low)/2);
+
+ if(mid*mid == x){
+    root = mid;
+    break;
+ };
+ 
+ if(mid*mid > x){
+     high = mid-1;   
+ }
+else{
+     root= mid;
+     low=mid+1;
+ }
+};
+return root;
+};
+console.log (mySqrt(9))
