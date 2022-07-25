@@ -1,0 +1,13 @@
+var targetIndices = function(nums, target) {
+    let sortArr = nums.sort (function compare(a,b){
+        return a-b;
+    })
+    let arr = [];
+    
+    for (let i=0;i<sortArr.length;i++){
+        if (sortArr[i]===target){
+            arr.push(i);
+        }
+    }
+ return arr;   
+};
