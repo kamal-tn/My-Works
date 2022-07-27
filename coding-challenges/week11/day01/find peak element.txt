@@ -1,0 +1,11 @@
+var findPeakElement = function(nums) {
+    return search(nums, 0, nums.length - 1)
+};
+
+function search(nums, left, right){
+    if(left == right) return left
+    
+    let mid = parseInt((left + right)/2)
+    if(nums[mid] < nums[mid + 1]) return search(nums, mid+1, right)
+    else return search(nums, left, mid)
+}
