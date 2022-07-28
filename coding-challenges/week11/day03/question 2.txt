@@ -1,0 +1,1 @@
+the worst case complexity of selection sort is  O(n^2)

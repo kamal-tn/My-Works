@@ -1,0 +1,13 @@
+var intersection = function(nums1, nums2) {
+    let set1 = [...new Set(nums1)] 
+    let set2 = [...new Set(nums2)]
+    let ans = [];
+for(let i=0;i<set1.length;i++){
+    for(let j=0;j<set2.length;j++){
+        if(set1[i]===set2[j]){
+            ans.push(set1[i])
+            }
+        }
+    }
+    return ans
+};
