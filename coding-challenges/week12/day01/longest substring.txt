@@ -1,0 +1,18 @@
+var lengthOfLongestSubstring = function(s) {
+    let str = "";
+  let max = 0;
+  let charIdx;
+  
+  for (let i = 0; i < s.length; i++) {
+    charIdx = str.indexOf(s[i]) + 1;
+    if (charIdx === 0) {
+      str += s[i];
+      max = Math.max(max, str.length);
+    } else {
+      str = str.substring(charIdx);
+      str += s[i];
+    }
+  }
+    
+  return max;
+};
