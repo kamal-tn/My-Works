@@ -1,0 +1,7 @@
+var findDuplicate = function(nums) {
+   const newSet = {};
+    for (let num of nums){
+        if (newSet[num] === undefined) newSet[num] = 1;
+        else return num;
+    }
+};
