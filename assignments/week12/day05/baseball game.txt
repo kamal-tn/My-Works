@@ -1,0 +1,27 @@
+var calPoints = function(ops) {
+    let arr = []
+    let res = 0
+
+    for(let op of ops) {
+         if (op === "C") {
+	res -= arr.pop();
+	} 
+           else if (op === "D") {
+	let num = arr[arr.length - 1] * 2;
+	arr.push(num);
+	res += num;
+	} 
+          else if (op === "+") {
+	let sum = arr[arr.length - 1] + arr[arr.length - 2];
+	arr.push(sum);
+	res += sum;
+	} 
+           else {
+	let num = parseInt(op);
+	arr.push(num);
+	res += num;
+	}
+              }
+
+       return res;
+};
