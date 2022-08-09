@@ -1,0 +1,29 @@
+var trap = function(height) {
+const leftArray = []; 
+const rightArray = []; 
+    
+    let leftMax = 0;
+    let rightMax = 0;
+    
+    let sum = 0;
+
+	
+    for (let i = 0; i < height.length; i++) {
+        leftMax = Math.max(leftMax, height[i]);
+        leftArray[i] = leftMax;
+    }
+    
+	
+    for (let j = height.length -1; j >= 0; j--) {
+        rightMax = Math.max(rightMax, height[j]);
+        rightArray[j] = rightMax;
+    }
+    
+	
+    for (let k = 0; k < height.length; k++) {
+        let water = Math.min(leftArray[k], rightArray[k]) - height[k];
+        sum += water;
+    }
+    
+    return sum;
+};
