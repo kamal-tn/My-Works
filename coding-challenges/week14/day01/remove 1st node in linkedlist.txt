@@ -1,0 +1,30 @@
+class Linkedlist{
+    constructor(data,next){
+        this.data = data;
+        this.next = next;
+    }
+}
+let head = new Linkedlist(1,null);
+
+function addNodeatEnd(head,data){
+    let current = head;
+    while(current.next !== null){
+        current = current.next
+    }
+    const newnode = new Linkedlist (data,null);
+    current.next = newnode;
+}
+addNodeatEnd(head,2);
+addNodeatEnd(head,3);
+addNodeatEnd(head,4);
+addNodeatEnd(head,5);
+console.log(head);
+
+function RemovenodeatFirst(){
+  
+    let temp = head;
+    head = head.next;
+    return head;
+}
+RemovenodeatFirst(head);
+console.log (head);
