@@ -1,0 +1,45 @@
+class LinkedListNode{
+    constructor(data,next){
+        this.data = data;
+        this.next = next;
+    }
+}
+
+function addNodeattheEnd(head,data) {
+    const newNode = new LinkedListNode (data,null);
+    let curr = head;
+    while (curr.next !== null) {
+        curr = curr.next;
+    }
+    curr.next = newNode;
+}
+
+function printLinkedList (head){
+    let curr = head;
+    while (curr!==null) {
+        console.log (curr.data);
+        curr = curr.next;
+    }
+}
+
+const head = new LinkedListNode (1,null);
+addNodeattheEnd(head,2);
+addNodeattheEnd(head,3);
+addNodeattheEnd(head,4);
+addNodeattheEnd(head,5);
+
+printLinkedList(head);
+console.log ("----------");
+
+function revRec (head,prev){
+    if (head === null){
+        return prev;
+    }
+    let next = head.next;
+    head.next = prev;
+    return revRec (next,head);
+}
+
+const newhead = revRec (head,null);
+printLinkedList(newhead);
+
