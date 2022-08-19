@@ -1,0 +1,23 @@
+var mergeInBetween = function(list1, a, b, list2) {
+let curr = list1
+let count = 0
+while(count < a - 1){
+curr = curr.next
+count++
+}
+let prev = curr
+count = 0
+let curr2 = list1
+while(count < b + 1){
+curr2 = curr2.next
+count++
+}
+let last = curr2
+prev.next = list2
+let curr3 = list2
+while(curr3.next != null){
+curr3 = curr3.next
+}
+curr3.next = last
+return list1
+};
