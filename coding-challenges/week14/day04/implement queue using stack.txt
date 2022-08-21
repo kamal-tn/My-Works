@@ -1,0 +1,20 @@
+var MyQueue = function() {
+    this.Queue = [];
+};
+
+MyQueue.prototype.push = function(x) {
+    this.Queue.push(x);
+};
+
+MyQueue.prototype.pop = function() {
+   return this.Queue.splice(0,1);
+};
+
+
+MyQueue.prototype.peek = function() {
+    return this.Queue[0];
+};
+
+MyQueue.prototype.empty = function() {
+    return this.Queue.length === 0;
+};
