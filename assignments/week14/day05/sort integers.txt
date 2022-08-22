@@ -1,0 +1,38 @@
+var getKth = function(lo, hi, k) {
+    
+    let arr = []
+    for (var i =lo; i <= hi;i++){
+        arr.push(i)
+    }
+    
+	
+    let twoDArr = []
+    for(var i=0; i < arr.length;i++){
+        twoDArr.push([arr[i],findPower(arr[i])])
+    }
+     
+	
+    twoDArr.sort((a,b)=> a[1]-b[1])
+    
+    return twoDArr[k-1][0]
+   
+    
+    
+};
+
+var findPower = function(num){
+    let count =0
+    
+    while (num !== 1){
+        
+        if(num%2 ===0){
+            num /= 2
+            count++
+        }else{
+            num = 3 * num + 1
+            count++
+        }
+    }
+    
+    return count
+};
