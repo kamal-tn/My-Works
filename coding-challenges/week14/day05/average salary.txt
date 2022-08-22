@@ -1,0 +1,13 @@
+var average = function(salary) {
+    let sal = salary.sort(function(a,b){return a-b});
+    let n = sal.length;
+    let min = sal[0];
+    let max = sal[n-1];
+    let total = 0;
+    for (let i=0; i<sal.length; i++){
+        total += sal[i];
+    }
+    
+    let average = (total-max-min)/(n-2);
+    return average;
+};
