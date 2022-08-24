@@ -1,0 +1,81 @@
+//to create a tree
+class BinaryTree{
+    constructor(data,left,right){
+        this.data = data;
+        this.left = left;
+        this.right = right;
+    }
+}
+const root = new BinaryTree (1,null,null);
+node2 = new BinaryTree (2,null,null);
+node3 = new BinaryTree (3,null,null);
+root.left = node2;
+root.right = node3;
+node4 = new BinaryTree (4,null,null);
+node5 = new BinaryTree (5,null,null);
+node2.left = node4;
+node2.right = node5;
+node6 = new BinaryTree (6,null,null);
+node7 = new BinaryTree (7,null,null);
+node3.left = node6;
+node3.right = node7;
+node8 = new BinaryTree (8,null,null);
+node9 = new BinaryTree (9,null,null);
+node7.right = node8;
+node6.left = node9;
+
+console.log (root);
+// after this our tree will look like
+//               1
+//             /   \
+//            2    3
+//           / \   / \
+//          4 5 6   7
+//               /      \
+//              9       8
+console.log ("-------");
+console.log("The Inorder Traversal is")
+
+// inorder traversal should be (left,root,right)
+function inorder (root){
+    //base condition
+    if (root == null) return;
+    //visit left child
+    inorder(root.left);
+    //visit root node
+    console.log (root.data);
+    //visit right child
+    inorder (root.right);
+}
+inorder (root);  // 425196378
+console.log ("-------");
+console.log ("The preorder Traversal is")
+
+//preorder traversal should be (root,left,right)
+function preorder (root){
+    //base condition
+    if (root == null) return;
+    //visit root node
+    console.log (root.data);
+    //visit left child
+    preorder(root.left);
+    //visit right child
+    preorder (root.right);
+}
+preorder (root);    // 124536978
+console.log ("-------");
+console.log("The Postorder Traversal is")
+
+//postorder traversal should be (left,right,root)
+function postorder (root){
+    //base condition
+    if (root == null) return;
+    //visit left child
+    postorder(root.left);
+    //visit right child
+    postorder (root.right);
+    //visit root node
+    console.log (root.data);
+}
+postorder (root);// 452968731
+
