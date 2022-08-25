@@ -1,0 +1,7 @@
+var maxDepth = function(root) {
+    if (root === null) return 0;
+    if(root.left === null && root.right === null) return 1;
+    let lst = maxDepth(root.left);
+    let rst = maxDepth(root.right);
+    return Math.max(lst, rst) + 1;
+};
