@@ -1,0 +1,14 @@
+steps to convert an invalid max heap into a valid one:
+
+1) create a function 
+2) to traverse through left sub tree l = 2*i+1
+3) to traverse through right sub tree r = 2*i+2
+4) create a largest variable
+5) compare left and right side and store it in a temp variable
+6) check between largest and temp variable
+7) swap the variable
+8) call the function recursively
+
+
+Time complexity: O (log n)
+Space complexity: O (1)
