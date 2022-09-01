@@ -1,0 +1,13 @@
+Steps to build the max heap:
+
+1) find the 1st non leaf node
+2) to find index of 1st non leaf node, Math.floor (n/2)-1
+3) run a loop from 1st non leaf node to root node by calling heapify algorithm
+
+Heapify algorithm:
+
+1) compare left child (2i+1) and right child (2i+2) and find the largest
+2) now compare the largest with the root node,
+     a) if root > largest, nothing will happen
+      b) if root < largest, swap them
+3) call this algorithm recursively
