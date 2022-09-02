@@ -1,0 +1,42 @@
+var findKthLargest = function(nums, k) {
+    heapsort (nums);
+    nums.reverse();
+    return nums[k-1];
+};
+function buildMaxHeap(arr) {
+  for (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {
+    heapify(arr, i); 
+ }
+}
+
+function heapify(arr, i, n) {
+ 
+  let l = 2 * i + 1;
+  let r = 2 * i + 2; 
+
+  
+  let tempIndex;
+  if (l >= n) return;
+  else if (l === n - 1) tempIndex = l;
+  else tempIndex = arr[l] > arr[r] ? l : r;
+
+ 
+  if (arr[i] < arr[tempIndex]) {
+    
+    arr[i] = arr[tempIndex] + arr[i];
+    arr[tempIndex] = arr[i] - arr[tempIndex];
+    arr[i] = arr[i] - arr[tempIndex];
+   
+    heapify(arr, tempIndex, n);
+  }
+}
+function heapsort (arr) {
+    buildMaxHeap (arr)
+    let n = arr.length
+    for (let i=n-1;i>=0;i--){
+        let temp = arr[0]
+        arr[0] = arr[i]
+        arr[i] = temp
+        heapify (arr, 0, i)
+    }
+}
