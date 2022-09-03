@@ -1,0 +1,28 @@
+var myPow = function(x, n) {
+  let dp = [];
+    
+    let num = Math.abs(n);
+    
+    dp[0] = 1;
+    dp[1] = x;
+ 
+    
+    let helperPow = function(x,n,dp){
+        if(dp[n] !== undefined) return dp[n];
+        let half = Math.floor(n/2);
+        if(n%2 === 0) {
+            let res = helperPow(x,half,dp)*helperPow(x,half,dp);
+            dp[n] = res;         
+            return res;
+        } 
+        if(n%2 === 1){
+            let res = helperPow(x,half,dp)*helperPow(x,half,dp)*x;
+            dp[n] = res;          
+            return res;
+        }  
+    }
+    
+    helperPow(x,num,dp)
+    
+    return n > 0 ? dp[num] : 1/dp[num]
+};
