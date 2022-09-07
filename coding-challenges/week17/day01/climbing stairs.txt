@@ -1,0 +1,10 @@
+var climbStairs = function(n) {
+    let dp = {};
+    function Count(n) {
+    if (n === 1 || n === 2) return n;
+        if (dp[n]) return dp[n];
+    dp[n] = Count (n-1) + Count (n-2);
+        return dp[n]
+}
+    return Count(n);
+};
