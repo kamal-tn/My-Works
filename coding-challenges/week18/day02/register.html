@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Register
+        </title>
+    </head>
+    <body>
+        <h1><b><u>STUDENT REGISTRATION FORM</u></b></h1>
+        <form>
+            <div>
+            <label for="name">FIRST NAME<sup style="color: red">*</sup>:</label>
+            <input id="name" type="text" placeholder="Enter first name" name="name" maxlength="30" required> (max 30 characters)
+             </div>
+             <br>
+             <div>
+                <label for="lname">LAST NAME:</label>
+                <input id="lname" type="text" placeholder="Enter last name" name="lname" maxlength="30"> (max 30 characters)
+             </div>
+             <br>
+             <div>
+                <label>DATE OF BIRTH<sup style="color:red;">*</sup>:</label>
+                <input type="date">
+             </div>
+             <br>
+             <div>
+                <label for="mail">EMAIL ID<sup style="color: red">*</sup>:</label>
+                <input id="mail" type="email" placeholder="Enter your e-mail" name="mail" required>
+             </div>
+             <br>
+             <div>
+                <label>MOBILE NO<sup style="color: red">*</sup>:</label>
+                <input type="text" placeholder="Enter Mobile no" maxlength="10" required> (10 digits number)
+             </div>
+             <br>
+             <div>
+                <label>GENDER<sup style="color: red">*</sup>:</label>
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female" required> Female
+                <input type="radio" name="gender" value="other" required> Other
+             </div>
+             <br>
+             <div>
+                <label>ADDRESS<sup style="color: red">*</sup>:</label>
+                <textarea placeholder="Enter your address"></textarea required>
+             </div>
+             <br>
+             <div>
+                <label>CITY<sup style="color: red">*</sup>:</label>
+                <input type="text" placeholder="Enter your city name" required>
+             </div>
+             <br>
+             <div>
+                <label>PINCODE<sup style="color: red">*</sup>:</label>
+                <input type="text" maxlength="6" placeholder="Enter pincode" required>
+             </div>
+             <br>
+             <div>
+                <label>STATE<sup style="color: red">*</sup>:</label>
+                <input type="text" placeholder="Enter your state name" required>
+             </div>
+             <br>
+             <div>
+                <label>COUNTRY<sup style="color: red">*</sup>:</label>
+                <input type="text" placeholder="Enter your country name" required>
+             </div>
+             <br>
+             <div>
+                <label>HOBBIES:</label>
+                <input type="checkbox" value="singing"> Singing
+                <input type="checkbox" value="cycling"> Cycling
+                <input type="checkbox" value="other"> Other <input type="text" placeholder="Enter any other hobby">
+             </div>
+             <br>
+             <div>
+                <label>QUALIFICATION<sup style="color: red">*</sup>:</label required>
+               <table>
+                <thead>
+                    <tr>
+                     <th>S.No</th>
+                     <th>Examination</th>
+                     <th>Board/University</th>
+                     <th>Percentage</th>
+                     <th>Year of Passing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                      <tr><b>
+                        <td>1.</td>
+                        <td>Class X</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                     </b></tr>  
+                      <tr>
+                        <td>2.</td>
+                        <td>Class XII</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>UG</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                      </tr>
+                      <tr>
+                        <td>4.</td>
+                        <td>PG</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                      </tr>
+                </tbody>
+                </table>
+             </div>
+             <br>
+             <div>
+               <label>DEGREE<sup style="color: red;">*</sup>:</label required>
+                  <input type="radio" name="degree" value="BE"> BE
+                  <input type="radio" name="degree" value="B.Sc"> B.Sc
+                  <input type="radio" name="degree" value="Other"> Other 
+                  <input type="text" placeholder="Enter degree name">
+            </div>
+            <br>
+             <div>
+                <input type="submit" value="Submit">
+                <input type="submit" value="Reset">
+             </div>
+         </form>
+    </body>
+</html>
