@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="./signup.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <br>
+    <div>
+        <p><span>1.</span>  Your Basic Info</p>
+        <input type="text" placeholder="Enter your name" required/><sup style="color: red;">*</sup>
+    </div>
+        <br>
+    <div>
+        <input type="email" placeholder="Enter your email-id" required/><sup style="color: red;">*</sup>
+    </div>
+        <br>
+    <div>
+        <input type="password" placeholder="Enter your password" required/><sup style="color: red;">*</sup>
+    </div>
+        <br>
+    <div>
+        <label>Age<sup style="color: red;">*</sup>:</label>
+        <br>
+        <input type="radio" name="age" value="under 13"/>Under 13
+        <br>
+        <input type="radio" name="age" value="over 13"/>Over 13
+    </div>
+    <br>
+    <div>
+        <p><span>2.</span>  Your Profile</p>
+    </div>
+    <br>
+    <div>
+        <label>Bio:</label>
+        <br>
+        <textarea></textarea>
+    </div>
+    <br>
+    <div>
+        <label>Job Role:</label>
+        <br>
+        <select>
+            <optgroup label="Web">
+                <option value="Front-End Developer">Front-End Developer</option>
+                <option value="PHP Developer">PHP Developer</option>
+                <option value="Python Developer">Python Developer</option>
+                <option value="Rails Developer">Rails Developer</option>
+                <option value="Web Designer">Web Designer</option>
+                <option value="Wordpress Developer">Wordpress Developer</option>
+            </optgroup>
+            <optgroup label="Mobile">
+                <option value="Android Developer">Android Developer</option>
+                <option value="IOS Developer">IOS Developer</option>
+                <option value="Mobile Designer">Mobile Designer</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option value="Business Owner">Business Owner</option>
+                <option value="Freelancer">Freelancer</option>
+            </optgroup>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label>Interests:</label>
+        <br>
+        <input type="checkbox" value="Development">Development
+        <br>
+        <input type="checkbox" value="Design">Design
+        <br>
+        <input type="checkbox" value="Business">Business
+    </div>
+    <br>
+    <input type="submit" value="Sign-Up">
+ </body>
+</html>
