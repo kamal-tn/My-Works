@@ -1,0 +1,44 @@
+.box {
+    width: 400px;
+    height: 350px;
+    background-color: purple;
+    color: white;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+label {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+
+input {
+    padding-left: 50px;
+}
+
+#submit {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    align-content: center;
+    border-radius: 35px;
+    padding-left: 15px;
+}
+
+#last-p {
+    margin-left: 150px;
+}
+
+#first-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
