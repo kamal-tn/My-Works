@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 500px;
+    margin: 10px 300px;
+    padding: 30px 20px;
+    background-color: #C0C0C0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: system-ui, ;
+}
+
+img {
+  
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
