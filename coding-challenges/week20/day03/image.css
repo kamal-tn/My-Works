@@ -1,0 +1,60 @@
+img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    background-color: whitesmoke;
+    height: max-content;
+    margin: 0 200px;
+    padding: 40px;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-flow: row wrap;
+    background-color: whitesmoke;
+    height: max-content;
+    margin: 0 200px;
+    padding: 80px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    font-size: 30px;
+    font-family: "Brush Script MT";
+}
+
+span {
+    border: 1.5px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.inner-container img:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.profile-img:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 3px black;
+}
