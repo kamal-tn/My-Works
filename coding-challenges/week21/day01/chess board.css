@@ -1,0 +1,79 @@
+.outer {
+    border: 3px solid black;
+    width: 640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 30px 400px;
+    position: relative;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+}
+
+.row-1 .box:nth-child(odd) {
+    background-color: white;
+}
+
+.row-1 .box:nth-child(even) {
+    background-color: black;
+}
+
+.row-2 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.row-2 .box:nth-child(even) {
+    background-color: white;
+}
+
+.row-3 .box:nth-child(odd) {
+    background-color: white;
+}
+
+.row-3 .box:nth-child(even) {
+    background-color: black;
+}
+
+.row-4 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.row-4 .box:nth-child(even) {
+    background-color: white;
+}
+
+.row-5 .box:nth-child(odd) {
+    background-color: white;
+}
+
+.row-5 .box:nth-child(even) {
+    background-color: black;
+}
+
+.row-6 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.row-6 .box:nth-child(even) {
+    background-color: white;
+}
+
+.row-7 .box:nth-child(odd) {
+    background-color: white;
+}
+
+.row-7 .box:nth-child(even) {
+    background-color: black;
+}
+
+.row-8 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.row-8 .box:nth-child(even) {
+    background-color: white;
+}
