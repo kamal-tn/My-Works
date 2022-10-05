@@ -1,0 +1,25 @@
+.outer-container {
+    width: 500px;
+    height: 600px;
+    margin: 50px 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.unenvironment.org/2022-03/field-ge4d2466da_1920.jpg);
+    background-size: 500px 600px;
+    background-position: center;
+    opacity: 0.5;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin-top: 0;
+}
