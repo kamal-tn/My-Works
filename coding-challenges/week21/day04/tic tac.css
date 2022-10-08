@@ -1,0 +1,36 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: lightskyblue;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border: 2px solid white;
+    width: 650px;
+    height: 650px;
+    margin: 10px 400px;
+}
+
+.box-1,.box-4 {
+    background-color: #ff8000;
+    font-size: 120px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-5,.box-9 {
+    background-color:#ff3333 ;
+    font-size: 120px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
