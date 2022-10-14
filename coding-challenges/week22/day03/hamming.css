@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px 550px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#button {
+    justify-content: center;
+    width: 25%;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+} 
+
+input {
+    width: 50%;
+    justify-content: center;
+}
+
+label {
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
