@@ -1,0 +1,26 @@
+img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 400px;
+    background-color: whitesmoke;
+}
+
+#button {
+    margin: auto;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+h1 {
+    text-shadow: 2px 2px 10px blue;
+}
