@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 30px 350px;
+    background-color: whitesmoke;
+}
+
+#addBtn {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+
+#newTaskInput {
+    padding: 5px;
+    margin: 8px;
+}
+
+h3 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
