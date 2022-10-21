@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+p {
+    font-size: 30px;
+}
+
+input {
+    height: 15px;
+    width: 15px;
+}
