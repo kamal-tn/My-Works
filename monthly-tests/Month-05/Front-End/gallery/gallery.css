@@ -1,0 +1,36 @@
+.outer {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+}
+
+
+.card {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: 5px 5px 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 250px;
+    height: 100px;
+}
+
+.card-text {
+    font-family: cursive;
+}
+
+.card-body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
