@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h3>Add User Form</h3>
+    <form action="http://localhost:3000/users" method="post">
+        <div>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="firstname"/>
+        </div>
+        <div>
+            <label for="l-name">Last Name:</label>
+            <input type="text" id="l-name" name="lastname"/>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"/>
+        </div>
+        <div>
+            <label for="job">Occupation:</label>
+            <select id="job" name="occupation">
+                <option></option>
+                <option>Engineering</option>
+                <option>Developer</option>
+                <option>Business</option>
+                <option>Doctor</option>
+                <option>others</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male"/>Male
+            <input type="radio" id="gender" name="gender" value="female"/>Female
+            <input type="radio" id="gender" name="gender" value="others"/>Others
+        </div>
+        <div>
+            <label for="hobby">Hobbies:</label>
+            <input type="checkbox" id="hobby" name="hobby" value="reading"/>Reading
+            <input type="checkbox" id="hobby" name="hobby" value="singing"/>singing
+            <input type="checkbox" id="hobby" name="hobby" value="cycling"/>cycling
+        </div>
+        <input type="submit" id="submit"/>
+    </form>
+</body>
+</html>
