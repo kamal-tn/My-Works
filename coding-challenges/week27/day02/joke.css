@@ -1,0 +1,44 @@
+.outer {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-content: center;
+    padding: 50px;
+    background-color: blue;
+}
+
+
+span {
+    font-size: 25px;
+    font-style: italic;
+    color: gray;
+}
+
+.inner {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    margin: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 5px 5px 10px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+    cursor: pointer;
+    padding: 10px;
+}
