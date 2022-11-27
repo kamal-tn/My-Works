@@ -1,0 +1,39 @@
+#outer {
+    border: 20px solid goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+
+#text {
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#auth {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-left: 150px;
+    color: red;
+}
+
+#button {
+    padding: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+}
+
+#button:hover {
+    cursor: pointer;
+}
