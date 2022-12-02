@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px;
+}
+
+h1 {
+    color: red;
+    text-shadow: 1px 1px 5px black;
+    font-size: 50px;
+}
