@@ -1,0 +1,20 @@
+//to create db
+use BookMyshow
+
+//to create collection
+db.createcollection ('Movies')
+
+//to insert one document in a collection
+db.Movies.insertone({name:'robot',cast:'rajinikanth'})
+
+//to insert multiple documents in a collection
+db.Movies.insertmany ([{name:"rrr",releaseyear:2022},{name:'kantara',language:'kannada'}])
+
+//to list all documents
+db.Movies.find()
+
+//to update one document
+db.Movies.updateone({name:'rrr'},{$set:{releaseyear:2021}})
+
+//to delete one document
+db.Movies.deleteOne({_id: ObjectId("639d5b541e311d5dc244ff5e")})
