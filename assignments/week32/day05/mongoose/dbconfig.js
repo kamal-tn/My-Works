@@ -1,0 +1,15 @@
+const mongoose = require('mongoose');
+
+const connectionURL = "mongodb+srv://kamalanathan:happyhome@kamalanathan.zljp46n.mongodb.net/test"
+
+async function connectDB() {
+  try {
+     // 1) connect
+    await mongoose.connect(connectionURL,{dbName: "Employees"})
+    console.log("DB Connection Successful")
+  } catch (error) {
+    console.log("Error Connecting to DB")
+  }
+}
+
+module.exports = connectDB
