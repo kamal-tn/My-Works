@@ -1,0 +1,35 @@
+--creating database---
+
+create database Bank
+----------------------------------------------------------------------------------
+--switch to database--
+
+use Bank
+-----------------------------------------------------------------------------------
+---To create table-----
+
+create table Account (
+Account_No bigint,
+Account_Type varchar(255),
+Credit bigint,
+Debit bigint,
+Balance bigint)
+
+create table Customer (
+Name varchar(255),
+Account_No bigint,
+Balance bigint)
+
+create table Employee (
+Name varchar(255),
+Position varchar(255),
+Salary bigint)
+
+------------------------------------------------------------------------------------------------
+-----to insert data----
+
+insert into Account(Account_No,Account_Type,Credit,Debit,Balance) values(25697784513,"current",500000,100000,400000);
+
+insert into Customer(Name,Account_No,Balance) values ("kiuhj",1234589523,850000)
+
+insert into employee (name,position,salary) values ("empty","Manager",50000)
