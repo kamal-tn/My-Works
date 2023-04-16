@@ -1,0 +1,44 @@
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 6px 0 #ccc;
+}
+
+.logo {
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: initial;
+}
+
+.nav {
+    display: flex;
+}
+
+.links {
+    margin-right: 4rem;
+    align-self: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 2rem;
+    height: 2rem;
+    border: solid 1px #ccc;
+    border-radius: 2rem;
+    margin-right: 8px;
+    object-fit: cover;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}

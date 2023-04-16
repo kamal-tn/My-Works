@@ -1,0 +1,29 @@
+.form-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.form-group {
+    margin: 8px 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-group input {
+    border: solid #ccc 1px;
+    border-radius: 4px;
+    padding: 0.6rem 1rem;
+    min-width: 360px;
+}
+
+.primary-btn {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    float: right;
+}

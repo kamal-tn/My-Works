@@ -1,0 +1,56 @@
+.video-cont {
+    display: flex;
+    padding: 2rem;
+}
+
+.video-cont video {
+    width: 60%;
+    border-radius: 8px;
+    margin-right: 2rem;
+}
+
+.video-details {
+    width: 30%;
+    position: relative;
+}
+
+.video-details .caption {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.video-details .tag {
+    background-color: rgb(174, 214, 228);
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin: 0 4px;
+    font-size: 14px;
+}
+
+.video-details .card-footer {
+    margin-top: 3rem;
+    position: relative;
+}
+
+.video-details .card-footer .date {
+    position: absolute;
+    top: -2rem;
+    right: 0;
+}
+
+.like-btn {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.video-details .likes {
+    background: rgb(33, 162, 205);
+    padding: 4px 1rem;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+}
+

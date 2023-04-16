@@ -1,0 +1,54 @@
+.main {
+    padding: 2rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.videos {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.videos a {
+    text-decoration: none;
+    color: initial;
+    width: 30%;
+}
+
+.card {
+    box-shadow: 0 0 1px 1px #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 1rem 8px;
+}
+
+.card .thumbnail {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card .caption {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    border-top: solid 0.5px #ccc;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.card .profile img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
