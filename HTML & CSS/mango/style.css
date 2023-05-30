@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 900px;
+    width: 1385px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: auto;
+    padding: 0;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+ 
+}
+
+.inner {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 48px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.inner h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Heebo",sans-serif;
+    padding: 35px 0;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+.navbar a:first-child:link {
+    cursor: pointer;
+    color: orange;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+.navbar button {
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    background-color: orange;
+    color: white;
+    border-style: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 8px 24px;
+    margin: 25px;
+}
+
+.navbar button:hover {
+    cursor: pointer;
+    background-color: #ffb62f;
+    transition: background-color ease-in .5s;
+}
+
+.logo {
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    color: orange;
+    padding: 8px;
+    margin-left: 0;
+    position: relative;
+}
+
+.logo span {
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: right;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+
+.image {
+    float: right;
+    padding: 30px;
+}
+
+.image img {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+
+.description {
+    width: 650px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 30px;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.description h1 {
+    color: white;
+    font-family: "Nunito",sans-serif;;
+    padding: 0 0 10px 0;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 70px;
+}
+
+.description p {
+    color: white;
+    font-family: "Heebo",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.description button {
+    padding: 16px 48px;
+    margin: 20px 15px 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: #FEA116;
+    border: 5px solid #d17f03;
+    border-radius: 2px;
+}

@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(120, 162, 184);
+    display: flex;
+    justify-content: center;
+}
+
+.template {
+    width: 1240px;
+    height: max-content;
+    background-color: white;
+    margin: 50px;
+    box-shadow: 10px 10px 8px 2px rgb(102, 135, 154);
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.header li {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: end;
+    font-family: 'Antonio';
+    color: rgb(16, 56, 91);
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 150px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    width:170px;
+    height:150px;
+    top: -100px;
+    left: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.header li:hover {
+    background-color: rgb(0, 54, 78);
+    color: white;
+}
+
+.header li span {
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 110px;
+    left: 25px;
+    
+}
+
+/* .header li:first-child {
+    
+    left: 20px;
+}
+
+
+
+.header li:nth-child(2) {
+   
+    left: 250px;
+}
+
+.header li:nth-child(3) {
+   
+    left: 480px;
+}
+
+.header li:nth-child(4) {
+    margin-right: 150px;
+    transform: rotate(45deg);
+    background-color:rgb(0, 54, 78);
+    width:170px;
+    height:150px;
+    top: -100px;
+    left: 710px;
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+}
+
+.header li:nth-child(5) {
+    margin-right: 150px;
+    transform: rotate(45deg);
+    background-color:rgb(0, 54, 78);
+    width:170px;
+    height:150px;
+    top: -100px;
+    left: 945px;
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+} */
+
+/* .header li:first-child span {
+    position: absolute;
+    z-index: 10;
+    transform: rotate(-45deg);
+    bottom: 60px;
+    right: 35px;
+    top: 110px;
+}
+
+.header li:nth-child(2) span {
+    position: absolute;
+    z-index: 10;
+    transform: rotate(-45deg);
+    bottom: 60px;
+    right: 20px;
+    top: 115px;
+}
+
+.header li:nth-child(3) span {
+    position: absolute;
+    z-index: 10;
+    transform: rotate(-45deg);
+    bottom: 60px;
+    right: 20px;
+    top: 115px;
+}
+
+.header li:nth-child(4) span {
+    position: absolute;
+    z-index: 10;
+    transform: rotate(-45deg);
+    bottom: 60px;
+    right: 34px;
+    top: 115px;
+}
+
+.header li:nth-child(5) span {
+    position: absolute;
+    z-index: 10;
+    transform: rotate(-45deg);
+    bottom: 60px;
+    right: 15px;
+    top: 115px;
+} */
+
+.description {
+    margin: 40px 0 20px 40px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.description #maintitle1 {
+    text-transform: uppercase;
+    font-family: 'Antonio';
+    font-size: 80px;
+    color: rgb(0, 54, 78);
+    position: absolute;
+    z-index: 10;
+    left: 35px;
+    top: 238px;
+}
+
+.description #maintitle2 {
+    text-transform: uppercase;
+    font-family: 'Antonio';
+    font-size: 80px;
+    font-weight: 200;
+    -webkit-text-stroke: 1px rgb(0, 54, 78);
+    color: white;
+    position: relative;
+}
+
+p {
+    width: 400px;
+    height: fit-content;
+    margin: 0 0 10px 40px;
+    font-family: 'Open Sans';
+    color: rgb(64, 100, 116);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+button {
+    margin: 10px 0 80px 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    background-color: rgb(0, 54, 78);
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.description .imagecontainer1 {
+    position: absolute;
+    z-index: 10;
+    width: 805px;
+    height: 750px;
+    background-color:  rgb(0, 54, 78);
+    float: right;
+    transform: rotate(0deg);
+    border-radius: 50px;
+    top: -60px;
+    left: 65px;
+    overflow: hidden;
+}
+
+.description .imagecontainer1 img {
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 33px;
+    left: -338px;
+    width: 912px;
+    border-radius: inherit;
+}
+
+.description .imagecontainer {
+    position: absolute;
+    width: 805px;
+    height: 780px;
+    background-color:  rgb(0, 54, 78);
+    float: right;
+    transform: rotate(45deg);
+    border-radius: 50px;
+    top: 365px;
+    left: 500px;
+    
+}

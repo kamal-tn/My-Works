@@ -1,0 +1,132 @@
+.container-md {
+   /* border: 2px solid;*/
+    padding: 10px;
+    /*background-image: url(./Path.jpg);*/
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 60vw 100vh;
+}
+
+img {
+    height: 600px;
+}
+
+.container-md .card img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.container-md .row .card {
+    margin-bottom: 20px;
+}
+
+.container-md .row .card h5 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.container-md .row .card p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: Roboto;
+}
+
+.container-md .col-6 h1,
+.container-md .col-5 h1 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+    font-family: Roboto;
+    color: #091133;
+    ;
+}
+
+.container-md .col-6 p,
+.container-md .col-5 p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: Roboto;
+    color: #505F98;
+    ;
+}
+
+.container-md .col-6 button {
+    width: 162px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    border-color: #091133;
+    color: #091133;
+    border-radius: 2px;
+    background: none;
+}
+
+#button1 {
+    background-color: #091133;
+    color: white;
+}
+
+.container-md .row .col-1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #505F98;
+    font-family: Roboto;
+}
+
+#nav-button {
+    width: 160px;
+    background-color: #111B47;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 2px;
+}
+
+#photo1 {
+    width: 480px;
+    height: 315px;
+}
+
+#photo2 {
+    width: 540px;
+    height: 387px;
+}
+
+#photo3 {
+    width: 445px;
+    height: 312px;
+}
+
+#pur-button {
+    width: 150px;
+    height: 32px;
+    background-color: #111B47;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 2px;
+}
+
+#button3 {
+    width: 150px;
+    height: 32px;
+    background-color: #111B47;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 2px;
+}
+
+

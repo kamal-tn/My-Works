@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do App</title>
+        <style>
+            * {
+                color: #222;
+            }
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                background-color: #ccc;
+            }
+            ul {
+                list-style-type: none;
+            }
+            li {
+                padding: 2px;
+                border: solid 1px #eee;
+            }
+
+            button {
+                width: 100px;
+                padding: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>ToDo List</h2>
+            <input type="text" id="userInput"/><button id="addButton">Add</button>
+            <ul>
+                <li><span>Text1</span> <button>Edit</button> <button>Delete</button></li>
+                <li>Text2 <button>Edit</button> <button>Delete</button></li>
+                <li>Text3 <button>Edit</button> <button>Delete</button></li>
+            </ul>
+        </div>
+        <script>
+            function addList() {
+                let li = generateList(userInput.value);
+                listContainer.append(li);
+            }
+            function editList() {}
+            function deleteList() {}
+
+            function generateList(text) {
+                let frag = document.createDocumentFragment();
+                let parentLi = document.createElement('li');
+                let editButton = document.createElement('button')
+                editButton.innerText = 'Edit';
+                let editInput = document.createElement('input');
+                editInput.type = 'text';
+                editInput.value = text;
+                editInput.style.display = 'none';
+                let deleteButton = document.createElement('button');
+                deleteButton.innerText = 'Delete';
+                let textSpan = document.createElement('span');
+                textSpan.innerText = text;
+
+                let saveButton = document.createElement('button');
+                saveButton.innerText = 'Save';
+
+                parentLi.appendChild(textSpan);
+                parentLi.appendChild(editInput);
+                parentLi.appendChild(editButton);
+                parentLi.appendChild(saveButton);
+                parentLi.appendChild(deleteButton);
+
+                editButton.addEventListener('click', () => {
+                    textSpan.style.display = 'none';
+                    editInput.style.display = 'inline-block';
+                    editInput.focus();
+                });
+
+                deleteButton.addEventListener('click', () => {
+                    parentLi.remove();
+                });
+
+                saveButton.addEventListener('click', () => {
+                    let changedValue = editInput.value;
+                    textSpan.style.display = 'inline';
+                    editInput.style.display = 'none';
+                    textSpan.innerText = changedValue;
+                });
+
+                frag.append(parentLi);
+                return frag;
+            }
+
+            let addButton = document.getElementById('addButton');
+            let userInput = document.getElementById('userInput');
+            let listContainer = document.querySelector('ul');
+            addButton.addEventListener('click', addList)
+        </script>
+    </body>
+</html>
