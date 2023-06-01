@@ -1,0 +1,55 @@
+#homebutton1 {
+    width: 160px;
+    padding: 5px;
+    background-color: #091133;
+    color: white;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-right: 45px;
+}
+
+#homebutton2 {
+    width: 160px;
+    padding: 5px;
+    background-color: white;
+    color: #091133;
+    border-color: #091133;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.homebox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border: 2px solid;
+    align-items: center;
+}
+
+.homebox h1 {
+    font-family: Roboto;
+    padding: 30px;
+    font-size: 50px;
+    color: #091133;
+}
+
+.homebox p {
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.buttonbox {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+img {
+    height: 500px;
+}

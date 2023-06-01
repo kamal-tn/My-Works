@@ -1,0 +1,87 @@
+.contactbox {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.innerbox {
+    text-align: center;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.innerbox h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    padding: 10px;
+    color: #091133;
+}
+
+.innerbox p {
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 10px;
+    color: #091133;
+}
+
+.pricebox h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    padding: 20px;
+    color: #091133;
+    text-shadow: 2px 2px 3px #091133;
+}
+
+.pricebox span {
+    font-family: Roboto;
+    font-size: 30px;
+    padding: 20px;
+    color: #091133;
+}
+
+#buybutton {
+    width: 150px;
+    height: 32px;
+    background-color: #111B47;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 2px;
+}
+
+.pricebutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.pricebutton span {
+    padding: 20px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #111B47;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.imgbox img {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+}
+
+.imgbox img:hover {
+    cursor: pointer;
+}

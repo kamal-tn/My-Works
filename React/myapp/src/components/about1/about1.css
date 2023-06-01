@@ -1,0 +1,60 @@
+.aboutbox {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.aboutbox h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    color: #091133;
+    padding: 5px;
+}
+
+.aboutbox .para {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #091133;
+    padding: 5px;
+}
+
+.card1 {
+    border: 2px solid;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.card2 {
+    border: 2px solid;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.card1 .icon,
+.card1 .card-title,
+.card1 .card-text {
+    padding: 5px;
+}
+
+.card2 .icon,
+.card2 .card-title,
+.card2 .card-text {
+    padding: 5px;
+}
+
+.card1 .icon, 
+.card2 .icon {
+    width: 36px;
+    height: 36px;
+}
