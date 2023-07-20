@@ -26,7 +26,7 @@
     justify-content: space-evenly;
     position: relative;
     overflow: hidden;
-    height: 200px;
+    height: 120px;
 }
 
 .header li {
@@ -38,13 +38,11 @@
     color: rgb(16, 56, 91);
     font-weight: 600;
     font-size: 20px;
-    margin-right: 150px;
     transform: rotate(45deg);
     background-color: #fff;
     width:170px;
     height:150px;
     top: -100px;
-    left: 50px;
     border-radius: 20px;
     position: relative;
 }
@@ -54,64 +52,33 @@
     color: white;
 }
 
-.header li span {
-    position: absolute;
-    transform: rotate(-45deg);
-    top: 110px;
-    left: 25px;
-    
+.header li:first-child {
+    left: -20px;
 }
-
-/* .header li:first-child {
-    
-    left: 20px;
-}
-
-
 
 .header li:nth-child(2) {
-   
-    left: 250px;
+    left: -20px;
 }
 
 .header li:nth-child(3) {
-   
-    left: 480px;
+    left: -20px;
 }
 
 .header li:nth-child(4) {
-    margin-right: 150px;
-    transform: rotate(45deg);
-    background-color:rgb(0, 54, 78);
-    width:170px;
-    height:150px;
-    top: -100px;
-    left: 710px;
-    border-radius: 20px;
-    position: absolute;
-    color: white;
+    left: -5px;
 }
 
 .header li:nth-child(5) {
-    margin-right: 150px;
-    transform: rotate(45deg);
-    background-color:rgb(0, 54, 78);
-    width:170px;
-    height:150px;
-    top: -100px;
-    left: 945px;
-    border-radius: 20px;
-    position: absolute;
-    color: white;
-} */
+   left: 0px;
+} 
 
-/* .header li:first-child span {
+ .header li:first-child span {
     position: absolute;
     z-index: 10;
     transform: rotate(-45deg);
     bottom: 60px;
     right: 35px;
-    top: 110px;
+    top: 115px;
 }
 
 .header li:nth-child(2) span {
@@ -148,7 +115,7 @@
     bottom: 60px;
     right: 15px;
     top: 115px;
-} */
+} 
 
 .description {
     margin: 40px 0 20px 40px;
@@ -166,8 +133,8 @@
     color: rgb(0, 54, 78);
     position: absolute;
     z-index: 10;
-    left: 35px;
-    top: 238px;
+    left: 44px;
+    top: 160px;
 }
 
 .description #maintitle2 {
