@@ -1,7 +1,7 @@
 .container-md {
    /* border: 2px solid;*/
     padding: 10px;
-    /*background-image: url(./Path.jpg);*/
+    background-image: url(./Path.jpg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 60vw 100vh;
